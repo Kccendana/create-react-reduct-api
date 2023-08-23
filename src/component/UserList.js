@@ -13,7 +13,7 @@ const UserList = () => {
   const renderUser = () => {
     return users.map((user) => (
       <li key={user.login.uuid}>
-        {user.name.title} {user.name.first} {user.name.last}
+        {user.name.title}. {user.name.first} {user.name.last}
       </li>
     ));
   };
